@@ -16,7 +16,7 @@ After many tries and errors I was able to set my kp3s 3d printer to work properl
 ## Clone this repository
 
 ```bash
-git clone 
+git clone https://github.com/fishsticksnom/kp3s_3d_touch_guide.git
 ```
 
 All of the necessary files nedded are contained here.
