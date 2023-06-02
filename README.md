@@ -83,6 +83,21 @@ If for some reason your printer stop working and the display shows an error, is 
 of the previous steps should be done with out having octoprint connected**.
 
 ## Octoprint Settings
+<div align="center">
+<img src="./assets/kingroon_octoprint1.png" alt="Octoprint general">
+</div>
+
+<div align="center" >
+<img src="./assets/kingroon_octoprint2.png" alt="Octoprint Print bed">
+</div>
+
+<div align="center">
+<img src="./assets/kingroon_octoprint3.png" alt="Axes">
+</div>
+
+<div align="center">
+<img src="./assets/kingroon_octoprint4.png" alt="Hotend and extruder">
+</div>
 
 **GCODE Settings**
 
