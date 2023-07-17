@@ -173,6 +173,57 @@ G1 X{{ pause_position.x }} Y{{ pause_position.y }} Z{{ pause_position.z }} F4500
 {% if pause_position.f is not none %}G1 F{{ pause_position.f }}{% endif %}
 {% endif %}
 ```
+## PID Tune
+
+Codes:
+
+**M303**: PID Tune  
+**S**: Extruder Temperature  
+**C**: Cycles  
+
+Tune extruder:
+
+
+```bash
+    M303 S200 C10
+```
+
+Set Extruder:
+
+```bash
+M301 Pvalue_here Ivalue_here Dvalue_here
+# Example:
+#M301 P16.61 I1.14 D60.46
+```
+
+Codes:
+
+**M303**: PID Tune  
+**E-1**: Bed  
+**S**: Extruder Temperature  
+**C**: Cycles  
+
+
+Tune Bed:
+
+```bash
+    M303 E-1 S60 C10
+```
+
+Set Bed:
+
+
+```bash
+M304 Pvalue_here Ivalue_here Dvalue_here
+# Example:
+# M304 P85.92 I16.78 D293.27
+```
+
+**Save Settings:**
+
+```bash
+M500
+```
 
 ## Cura Settings
 
