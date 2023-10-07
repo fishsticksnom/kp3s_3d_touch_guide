@@ -44,6 +44,17 @@ This is the 2.1.1 marlin version.
 1. Advance Settings
 1. **Initialize EEPROM**
 
+## Z probe offset wizard
+
+<p>To fix the Z offset use the Z probe offset wizard.</p>
+
+**First increase the bed temperature to 60 and tool temperature to 210, once the temperature has been changed.**
+
+1. Configuration
+1. Advance Settings
+1. Probe offsets
+1. **Z probe Wizard**
+
 ## Bed Tramming Wizard
 
 **First increase the bed temperature to 60**
@@ -52,17 +63,6 @@ This is the 2.1.1 marlin version.
 
 1. Motion
 1. **Tramming Wizard**
-
-## Z probe offset wizard
-
-<p>To fix the Z offset use the Z probe offset wizard.</p>
-
-**First increase the bed temperature to 60 and tool temperature to 150, once the temperature has been changed.**
-
-1. Configuration
-1. Advance Settings
-1. Probe offsets
-1. **Z probe Wizard**
 
 ## Store Settings
 
