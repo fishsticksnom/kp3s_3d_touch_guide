@@ -25,7 +25,13 @@ All of the necessary files nedded are contained here.
 
 The directory with the name stls containes **3** files one of them is the bed level test you can use this file at the end of the guide and check if your printer is working correctly, the other **2** files are the for mounting the 3d touchsensor , I printed them using PLA with 20 percent infill.
 
-<p>The Kingroon team made a <a href="https://www.youtube.com/watch?v=s2ZiibBKVKI">video</a> to help you with the instalation of the sensor, you can stop watching the video after min 6:41.</p>
+<p>The Kingroon team made a <a href="https://www.youtube.com/watch?v=s2ZiibBKVKI">video</a> to help you with the instalation of the sensor, <b>don't plug the cables at the bottom of the kp3s as the the video indicates we will do this later following another guide</b>, you can stop watching the video after min 6:41.</p>
+
+## How To Connect The Cables Into the Motherboard
+
+This guide explains how to connect the cables into the motherboard.
+
+<a href="https://bubba.org/kp3s/3dTouch/">Bubba guide for connecting the cables.</a>
 
 ## Marlin Firmware
 
@@ -310,5 +316,17 @@ M84 X Y E ;Disable all steppers but Z
 <div align="center" size="200">
 <img src="./assets/tpu_settings_cura.png" alt="tpu_settings" width="400">
 </div>
+
+## Prusa Slicer
+
+I found this profiles on github a few months ago, I test them and I can confirm that they work!
+
+<a href="https://github.com/RyanT95/KP3S-Prusa">Prusa Slicer Profiles</a>
+
+Many thanks to <a href="https://github.com/RyanT95"><b>RyanT95</b></a> for taking the time to do this and share it.
+
+## Notes:
+
+I haven't use my kp3s in a long time, if I remember correctly I got an error using Octoprint and the prusa slicer profiles, the solution was deleting the gcode settings from Octoprint.
 
 If you find this guide useful please give it a star and share.
